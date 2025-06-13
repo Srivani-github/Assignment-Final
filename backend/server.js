@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import express from "express";
 import mongoose from "mongoose";
 import multer from "multer";
-import { File } from "./models/File.js"; // Your File schema (updated with relativePath)
+import { File } from "./models/File.js"; 
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
